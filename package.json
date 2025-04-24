@@ -1,0 +1,31 @@
+{
+  "name": "authentication-system-postgre",
+  "version": "1.0.0",
+  "description": "Authentication System via Prisma",
+  "homepage": "https://github.com/raheelhparekh/Authentication-System-PostGre#readme",
+  "bugs": {
+    "url": "https://github.com/raheelhparekh/Authentication-System-PostGre/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raheelhparekh/Authentication-System-PostGre.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.6.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "dotenv": "^16.5.0",
+    "prisma": "^6.6.0"
+  }
+}
